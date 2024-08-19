@@ -1,0 +1,140 @@
+body {
+  background-color: lightblue;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+}
+
+
+.white-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.4); 
+  border: solid 1px white;
+  border-radius: 10px;
+  padding: 20px; 
+  text-align: center;
+  height: 450px;
+  width: 320px; 
+  box-sizing: border-box; 
+  backdrop-filter: blur(5px);
+  margin-top: 15vh;
+}
+.login .head{
+    color: black;
+    margin-bottom: 5vh;}
+.content{
+  backdrop-filter: blur(30px);
+}
+.prsenteesCon li{
+    text-align: start;
+    font-size: 20px;
+}
+hr{
+    color: black;
+    font-weight: 100;
+}
+.resCon{
+    display: flex;
+    justify-content: center;
+}
+.prsenteesCon{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.4); 
+  border: solid 1px white;
+  border-radius: 5px;
+  padding: 30px; 
+  text-align: center;
+  height: 100%;
+  width: auto; 
+  box-sizing: border-box; 
+  backdrop-filter: blur(5px);
+  margin-top: 15px;
+}
+.login,
+.register {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* width:100%; */
+}
+.images{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+}
+images i{
+  width: 50px;
+  height: 50px;
+}
+.section {
+  width: 100%;
+  position: relative; /* Needed for the absolute positioning of the icon */
+  margin-bottom: 10px;
+}
+
+.section i {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #868484;
+  font-size: 1.2em;
+}
+
+.mail,
+.password,
+.password1 {
+  padding-left: 45px;
+  width: 280px;
+  height: 40px;
+  border-radius: 15px;
+  /* border: 2px solid rgba(169, 169, 169, 0.8); */
+  border: 1px solid rgba(255, 255, 255, 0.4) ;
+  background-color: rgba(255, 255, 255, 0.4); 
+}
+
+.login-button {
+  /* background-color: rgba(26, 56, 90,0.8) ; */
+  background-color: rgba(37, 15, 73, 0.8);
+  color: white;
+  border: rgba(49, 4, 121, 0.8);
+  border-radius: 15px;
+  height: 40px; 
+  width: 280px; 
+  margin-top: 3vh;
+}
+
+.login-button:hover {
+  background-color: rgba(49, 4, 121, 1.1);
+  color: #fff;
+  /* width: 280px; */
+}
+
+.register-button {
+  background-color: #fff;
+  color: brown;
+  border: 2px solid brown;
+  border-radius: 14px;
+  height: 30px; /* Set height */
+  width: 100px; /* Set width */
+}
+
+.register-button:hover {
+  background-color: brown;
+  color: #fff;
+}
+.register-link a{
+  text-decoration:none ;
+}
