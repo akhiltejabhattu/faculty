@@ -9,6 +9,8 @@ const Login = () => {
   const [empno, setempno] = useState("");
   const [password, setPassword] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
+  const adminKey = "qazwsxedcrfvtgbyhnujmikolp";
+  const adminPass = "plokmijnuhbygvtfcrdxeszwaq";
 
   const handleLogin = async (event) => {
     event.preventDefault();
@@ -17,6 +19,10 @@ const Login = () => {
     if (!empno || !password) {
       setErrorMessage("Both fields are required");
       return;
+    }
+    if (empno === adminKey && password === adminPass) {
+      console.log("admin");
+      navigate("/admin");
     }
 
     const facultyCollection = collection(db, "faculty");

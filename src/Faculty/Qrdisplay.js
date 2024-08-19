@@ -189,7 +189,7 @@ function Qrdisplay() {
       <h1>Scan here to mark your attendance</h1>
       {domain && (
         <>
-          <QRCode value={domain} size={300} level="H" className="mt-2 mb-3" />
+          <QRCode value={domain} size={550} level="H" className="mt-2 mb-3" />
           <p>{domain}</p>
         </>
       )}
