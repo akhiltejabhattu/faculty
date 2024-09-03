@@ -34,8 +34,8 @@ function Qrdisplay() {
       for (let i = 0; i < 16; i++) {
         result += chars.charAt(Math.floor(Math.random() * chars.length));
       }
-      return "https://smart-attendance-student.netlify.app?" + empno + result;
-      // return "https://smart-attendance-student1.netlify.app?" + empno + result;
+      // return "https://smart-attendance-student.netlify.app?" + empno + result;
+      return "https://66c460421793ace575250a68--rococo-sunburst-49c5ff.netlify.app?" + empno + result;
     };
 
     const generateQRCode = async () => {
